@@ -1,0 +1,61 @@
+/* $mobile: 375px;
+$desktop: 1440px;
+
+
+$white: hsl(0, 0%, 100%);
+$light_grey : hsl(212, 45%, 89%);
+$grayish_blue : hsl(220, 15%, 55%);
+$dark_blue: hsl(218, 44%, 22%);
+
+
+$font_size: 15px;
+
+$font_family:url(https://fonts.google.com/specimen/Outfit);
+$weights: 400, 700; */
+
+body{
+    background-color: hsl(220, 15%, 55%);;
+}
+
+figure{
+    margin:0%;
+}
+img{
+    border-radius: 4%;
+    width: 100%;
+    height: 100%;
+  }
+.card {
+    border-radius: 4%;
+    padding:   1%;
+    width: 20%;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    transform: translate(0,20%);
+}
+
+h3{
+color:hsl(218, 44%, 22%);
+}
+h5{
+color:hsl(214, 14%, 66%);
+}
+h3,h5{
+    text-align: center;
+    font-family:url(https://fonts.google.com/specimen/Outfit);
+    font-weight: 400,700;
+   
+   
+}
+@media only screen and (max-width: 600px) {
+    .card {
+        border-radius: 4%;
+        padding: 2%;
+        width: 50%;
+        background-color: hsl(0, 0%, 100%);
+        margin: auto;
+        transform: translate(0,20%);
+    }
+    
+    }
